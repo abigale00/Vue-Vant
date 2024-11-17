@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-
+// H5rem适配
+import 'amfe-flexible/index.js'
 Vue.config.productionTip = false
 
 new Vue({
